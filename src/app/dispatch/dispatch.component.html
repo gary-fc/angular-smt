@@ -1,0 +1,25 @@
+<article>
+  <form [formGroup]="prettyForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="productInput">Producto</label>
+      <input type="text" id="productInput" formControlName="productInput" class="form-control" placeholder="Enter code">
+    </div>
+
+    <div class="form-group">
+      <label for="textInput">Documento</label>
+      <input type="text" id="textInput" formControlName="textInput" class="form-control" placeholder="Enter text">
+    </div>
+
+    <div class="form-group">
+      <label for="selectInput">Tipo</label>
+      <select id="selectInput" formControlName="selectInput" class="form-control">
+        <option value="">Selecciona el tipo de salida</option>
+        <option value="option1">Salida rapida</option>
+        <option value="option2">Salida prerapida</option>
+        <!-- Add more options here -->
+      </select>
+    </div>
+
+    <button type="submit" class="submit-btn" [disabled]="!prettyForm.valid">Ejecutar salida</button>
+  </form>
+</article>

@@ -1,0 +1,46 @@
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #24A0FA; /* Adjust the color to match the image */
+  /* More styling */
+}
+
+.sidebar-header {
+  padding: 10px;
+  background: #3F83F6; /* Adjust the color to match the image */
+  /* More styling */
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  /* More styling */
+}
+
+.user-image img {
+  border-radius: 50%;
+  /* More styling */
+}
+
+.user-info p {
+  /* Styling for user name */
+}
+
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+  /* More styling */
+}
+
+.sidebar-menu li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  /* More styling */
+}
+
+/* Add hover and active styles for the links */

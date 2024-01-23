@@ -32,7 +32,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["src/assets/js/pusher.min.js"]
           },
           "configurations": {
             "production": {
